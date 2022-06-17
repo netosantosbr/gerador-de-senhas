@@ -1,0 +1,87 @@
+* {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #18181B;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-input{
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.container-input span{
+    color:aliceblue;
+    font-size: 22px;
+}
+
+.container-password{
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.password{
+    height:60px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    border: 1px solid #FFF;
+    transition: transform 1s;
+}
+
+.password:hover{
+    transform: scale(1.05);
+}
+
+.warnSenha{
+    color: #FFF;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.container-password:hover .warnSenha {
+    visibility: visible;
+}
+
+.hide{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
